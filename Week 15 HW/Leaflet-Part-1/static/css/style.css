@@ -1,0 +1,58 @@
+/* Customize the map container */
+#map {
+  width: 100%;
+}
+
+/* Style the legend */
+.info.legend {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.info.legend strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  float: left;
+}
+
+/* Style popups */
+.leaflet-popup-content-wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.leaflet-popup-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+/* Optionally, style other elements on your HTML page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
